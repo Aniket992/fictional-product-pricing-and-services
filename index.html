@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>motion cut</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="./assets/logo.jpeg" alt="" />
+
+      <div class="nav-item">
+        <li>Capabilities</li>
+        <li>Our Work</li>
+        <li>Our Platform</li>
+        <li>Pricing</li>
+        <li>About Us</li>
+        <li>Newsletter</li>
+      </div>
+      <div class="right-section">
+        <div class="sign-in">Sign In</div>
+        <div class="Book-a-Demo">Book-a-Demo</div>
+      </div>
+    </nav>
+
+    <div class="hero-section">
+      <div class="left-side">
+        <h1>Plans & Pricing</h1>
+        <p>
+          Whether your time-saving automation needs are large or small, we're
+          here to help you scale.
+        </p>
+
+        <div class="currency-dropdown">
+          <label for="currency">Select Currency:</label>
+          <select id="currency" onchange="changeCurrency()">
+            <option value="inr">INR</option>
+            <option value="usd">USD</option>
+            <option value="eur">EUR</option>
+            <option value="gbp">GBP</option>
+            <!-- Add more currencies as needed -->
+          </select>
+        </div>
+      </div>
+      <div class="right-side">
+        <img src="./assets/heroimage.webp" alt="" />
+      </div>
+    </div>
+
+    <div class="pricing-container">
+      <div class="pricing-tile">
+        <h2>Basic</h2>
+        <p class="price">$19.99/month</p>
+        <ul>
+          <li>Feature 1</li>
+          <li>Feature 2</li>
+          <li>Feature 3</li>
+        </ul>
+        <button>Select Plan</button>
+      </div>
+
+      <div class="pricing-tile">
+        <h2>Standard</h2>
+        <p class="price">$39.99/month</p>
+        <ul>
+          <li>Feature 1</li>
+          <li>Feature 2</li>
+          <li>Feature 3</li>
+          <li>Feature 4</li>
+        </ul>
+        <button>Select Plan</button>
+      </div>
+
+      <div class="pricing-tile">
+        <h2>Premium</h2>
+        <p class="price">$59.99/month</p>
+        <ul>
+          <li>Feature 1</li>
+          <li>Feature 2</li>
+          <li>Feature 3</li>
+          <li>Feature 4</li>
+          <li>Feature 5</li>
+        </ul>
+        <button>Select Plan</button>
+      </div>
+    </div>
+    <header></header>
+
+    <footer>
+      <div class="footer_left">
+        <p>Connect Us On</p>
+
+        <div class="social-media">
+          <img src="./assets/in.png" alt="" />
+          <img src="./assets/telegram.png" alt="" />
+          <img src="./assets/insta.png" alt="" />
+          <img src="./assets/utube.png" alt="" />
+        </div>
+      </div>
+
+      <div class="footer-center">
+        <p>Support</p>
+        <li>Product Help</li>
+        <li>Report Issue</li>
+      </div>
+
+      <div class="footer-right">
+        <p>Contact Us</p>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="enter your email"
+        />
+        <textarea
+          name=""
+          id=""
+          cols="50"
+          rows="3"
+          placeholder="Write message"
+        ></textarea>
+        <button>Send</button>
+      </div>
+    </footer>
+    <div class="copy-right">
+      <p>ⓒ All Right reserved</p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
