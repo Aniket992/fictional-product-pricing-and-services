@@ -35,7 +35,12 @@
         <div class="currency-dropdown">
           <label for="currency">Select Currency:</label>
           <select id="currency" onchange="changeCurrency()">
-            <option value="inr">INR</option>
+            <option
+              value="inr"
+              style="background-image: url(./assets/inflag.png)"
+            >
+              INR
+            </option>
             <option value="usd">USD</option>
             <option value="eur">EUR</option>
             <option value="gbp">GBP</option>
@@ -49,41 +54,63 @@
     </div>
 
     <div class="pricing-container">
-      <div class="pricing-tile">
-        <h2>Basic</h2>
-        <p class="price">$19.99/month</p>
+     <div class="starter-container">
+        <div class="pricing-tile">
+            <h2>Starter</h2>
+            <p class="price">$19.99/month</p>
+            <h3>
+              For individual and teams that need to create,share,and collaborate on
+              prototypes.
+            </h3>
+            <ul>
+              <li>Unlimited viewers</li>
+              <li>Unlimited projects</li>
+              <li>Unlimited editors</li>
+            </ul>
+            <button>Subscribe</button>
+          </div>
+    
+     </div> 
+     <div class="pro-container">
+        <div class="pricing-tile">
+            
+            <h2>Pro</h2>
+            <p class="price">$39.99/month</p>
+            <h3>
+              For teams that want to manage users, create a design system,and work
+              with developers
+            </h3>
+            <ul>
+              <li>Everything in Starter</li>
+              <li>Desktop app</li>
+              <li>Offline editing</li>
+              <li>Local file access</li>
+              <li>Version history</li>
+            </ul>
+            <button>Subscribe</button>
+          </div>
+     </div>
+      
+<div class="enterprice-container">
+    <div class="pricing-tile">
+        <h2>Enterprice</h2>
+        <p class="price">Let's Talk</p>
+        <h3>
+          For organisations with 20+ users that need additional control,custom
+          security,and support
+        </h3>
         <ul>
-          <li>Feature 1</li>
-          <li>Feature 2</li>
-          <li>Feature 3</li>
+          <li>Everything in Pro</li>
+          <li>Enterprice SSO</li>
+          <li>Dedicated support</li>
+          <li>Onboarding & training</li>
+          <li>Centralized billing</li>
+          <li>Custom security</li>
         </ul>
-        <button>Select Plan</button>
+        <button>Contact us</button>
       </div>
-
-      <div class="pricing-tile">
-        <h2>Standard</h2>
-        <p class="price">$39.99/month</p>
-        <ul>
-          <li>Feature 1</li>
-          <li>Feature 2</li>
-          <li>Feature 3</li>
-          <li>Feature 4</li>
-        </ul>
-        <button>Select Plan</button>
-      </div>
-
-      <div class="pricing-tile">
-        <h2>Premium</h2>
-        <p class="price">$59.99/month</p>
-        <ul>
-          <li>Feature 1</li>
-          <li>Feature 2</li>
-          <li>Feature 3</li>
-          <li>Feature 4</li>
-          <li>Feature 5</li>
-        </ul>
-        <button>Select Plan</button>
-      </div>
+</div>
+     
     </div>
     <header></header>
 
@@ -100,9 +127,29 @@
       </div>
 
       <div class="footer-center">
-        <p>Support</p>
-        <li>Product Help</li>
-        <li>Report Issue</li>
+        <div>
+          <p>Features</p>
+          <li>Random feature</li>
+          <li>Team feature</li>
+          <li>Cool stuff</li>
+          <li>Stuff for development</li>
+          <li>Another one</li>
+          <li>Last time</li>
+        </div>
+        <div>
+          <p>Resources</p>
+          <li>Resource</li>
+          <li>Resource name</li>
+          <li>Another resource</li>
+          <li>Final resource</li>
+        </div>
+        <div>
+          <p>About</p>
+          <li>Team</li>
+          <li>Locations</li>
+          <li>Privacy</li>
+          <li>Terms</li>
+        </div>
       </div>
 
       <div class="footer-right">
