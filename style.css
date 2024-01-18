@@ -5,7 +5,8 @@
   padding: 0px;
 }
 body {
-  background-image: url(./bg.png);
+  /* background-image: url(./bg.png); */
+  background-color:grey;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -59,6 +60,7 @@ body {
   border-radius: 12px;
   margin-top: 100px;
   height: fit-content;
+  gap: 65px;
 }
 .left-side {
   /* background-color: palegreen; */
@@ -99,8 +101,8 @@ h1 {
   /* margin-left: 100px; */
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  width: 300px;
+  justify-content: space-between;
+  width: 250px;
 }
 .sign-in {
   display: flex;
@@ -113,9 +115,9 @@ h1 {
 }
 .Book-a-Demo {
   display: flex;
-  background-color: white;
-  color: blac;
+  background-color: rgb(138, 182, 240);
   border-radius: 15px;
+
   height: 35px;
   align-items: center;
   padding: 5px;
@@ -136,25 +138,40 @@ h1 {
 .Book-a-Demo:hover {
   background-color: black;
   color: white;
-  transition: 0.1s;
-  border: 4px solid white;
+  transition: .1s;
+  /* transition: ease-in-out; */
+  border: 4px solid greenyellow;
 }
 .pricing-container {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   margin: 20px;
   width: 80%;
+  gap: 30px;
   /* background-color: red; */
 }
-
+.starter-container{
+  background-color: whitesmoke;
+  border-radius: 8px;
+}
+.pro-container{
+  background-color:whitesmoke;
+  border-radius: 8px;
+}
+.enterprice-container{
+  background-color: whitesmoke;
+  border-radius: 8px;
+}
 .pricing-tile {
   border: 4px solid black;
   border-radius: 10px;
   padding: 20px;
-  background-color: whitesmoke;
+  background-color: rgb(235, 206, 234);
   text-align: center;
   width: 350px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 30px;
 }
 
 .pricing-tile h2 {
@@ -244,7 +261,9 @@ footer {
 }
 .footer-center {
   /* background-color: red; */
+  display: flex;
   width: fit-content;
+  gap: 60px;
 }
 .footer-center p {
   font-size: xx-large;
@@ -256,15 +275,19 @@ footer {
 .footer-center li {
   list-style-type: none;
   color: white;
-  text-decoration: underline;
   cursor: pointer;
   margin: 10px;
+}
+.footer-center li:hover{
+  text-decoration: underline;
+
 }
 .footer-right {
   /* background-color: yellow; */
   width: fit-content;
   display: flex;
   flex-direction: column;
+  margin-left: 20px;
   /* justify-content: center; */
   /* align-items: center; */
 }
