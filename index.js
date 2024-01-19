@@ -8,3 +8,5 @@ function changeCurrency() {
     // Log the selected currency to the console (you can remove this line in production)
     console.log("Selected Currency: " + selectedCurrency);
 }
+
+
