@@ -1,5 +1,5 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap"); */
-  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 * {
   margin: 0px;
   padding: 0px;
@@ -353,6 +353,7 @@ footer {
 .footer-center {
   /* background-color: red; */
   display: flex;
+  display: flex;
   width: fit-content;
   gap: 60px;
 }
@@ -373,12 +374,15 @@ footer {
   text-decoration: underline;
 
 }
+.footer-center li:hover{
+  text-decoration: underline;
+
+}
 .footer-right {
   /* background-color: yellow; */
   width: fit-content;
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
   /* justify-content: center; */
   /* align-items: center; */
 }
