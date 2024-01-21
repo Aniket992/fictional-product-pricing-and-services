@@ -1,12 +1,10 @@
-function changeCurrency() {
-    // Get the selected currency value
-    var selectedCurrency = document.getElementById("currency").value;
+document.addEventListener('DOMContentLoaded', function () {
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+    const navItems = document.querySelector('.nav-item');
+    const navbar = document.querySelector('.navbar');
 
-    // You can perform any actions related to currency change here
-    // For example, update prices based on the selected currency
-
-    // Log the selected currency to the console (you can remove this line in production)
-    console.log("Selected Currency: " + selectedCurrency);
-}
-
-
+    hamburgerMenu.addEventListener('click', function () {
+        navItems.classList.toggle('show');
+        navbar.classList.toggle('abcd');
+    });
+});
