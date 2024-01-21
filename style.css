@@ -312,28 +312,29 @@ align-items: center;
 }
 footer {
   background-color: rgb(57, 54, 54);
-  margin-top: 50px;
+  /* margin-top: 50px; */
   height: 400px;
   width: 98%;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   display: flex;
   justify-content:center;
-  align-items: center;
+  /* align-items: center; */
   text-align: center;
   justify-content: left;
 }
+
 .footer_left {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  /* margin: 10px; */
+  /* justify-content: center; */
+  margin-top: 30px;
   gap: 10px;
-  background-color: yellow;
+  /* background-color: yellow; */
   /* background-color:pink; */
 text-align: center;
-  /* width: fit-content; */
+  width: 400px;
 }
 .social-media{
 display: flex;
@@ -367,30 +368,46 @@ gap: 10px;
   height: 60px;
 }
 .footer-center {
-  background-color: red;
-  text-align: center;
+  /* background-color: red; */
+  /* text-align: center; */
   display: flex;
   padding: 30px;
-  justify-content: center;
+  
   width: fit-content;
   gap: 30px;
-  margin-left: -100px;
-  margin: 10px;
+  /* margin-left: -100px; */
+  /* margin: 10px; */
 }
-.about .resources .features{
-  display: flex;
+.about{
+  /* display: flex; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
+.about p{
+  margin-left: 40px;
+}
+.features{
+  /* background-color: greenyellow; */
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.resources{
+  
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+}
 .footer-center p {
   font-size: xx-large;
   font-weight: bolder;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   width: fit-content;
   color: wheat;
-  text-align: center;
+  /* text-align: center; */
 }
 .footer-center li {
   list-style-type: none;
@@ -407,7 +424,7 @@ gap: 10px;
 
 }
 .footer-right {
-  background-color: yellow;
+  /* background-color: yellow; */
   width: fit-content;
   display: flex;
   flex-direction: column;
@@ -415,13 +432,12 @@ gap: 10px;
   /* margin: 10px; */
   padding: 20px;
   /* justify-content: center; */
-  /* align-items: center; */
+  align-items: center;
 }
 .footer-right p {
   font-size: xx-large;
   font-weight: bolder;
-  margin-top: 90px;
-  width: fit-content;
+  margin-top: 10px;
   color: wheat;
 }
 .footer-right p,
@@ -436,14 +452,15 @@ textarea {
   display: flex;
   border-radius: 8px;
   padding: 4px;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
+  width: 100%;
 }
 .footer-right button {
   font-size: x-large;
   font-weight: bold;
   display: flex;
-  justify-content: center;
+  /* text-align: center; */
   align-items: center;
   width: fit-content;
   padding: 10px;
